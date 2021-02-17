@@ -4,6 +4,10 @@ Simple Android weather app using OpenWeatherMap api
 
 Application screen shuts:
 
+https://user-images.githubusercontent.com/76472236/108225313-11366800-7151-11eb-9023-7fb2d5584533.mp4
+
+
+
 ![Screenshot_2021-02-14-18-27-04-489_com example weather5](https://user-images.githubusercontent.com/76472236/108217091-75086300-7148-11eb-907b-6d6223420745.jpg)
 
 
