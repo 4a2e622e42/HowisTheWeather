@@ -37,4 +37,4 @@ Application screen shuts:
 
 
 
-Just cahnge api keys with your api key :)
+Just change api keys with your api key :)
