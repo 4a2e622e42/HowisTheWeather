@@ -1,10 +1,16 @@
 # HowistheWeather
 Simple Android weather app using OpenWeatherMap api 
 
+Watch application:
+👇👇👇👇👇👇
+https://user-images.githubusercontent.com/76472236/108225313-11366800-7151-11eb-9023-7fb2d5584533.mp4
+👆👆👆👆👆👆
+      
+
+
 
 Application screen shuts:
 
-https://user-images.githubusercontent.com/76472236/108225313-11366800-7151-11eb-9023-7fb2d5584533.mp4
 
 
 
