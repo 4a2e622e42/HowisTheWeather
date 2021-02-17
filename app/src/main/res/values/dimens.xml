@@ -1,0 +1,10 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <dimen tools:override="true"
+        name="design_navigation_separator_vertical_padding">20dp</dimen>
+
+    
+    
+
+</resources>

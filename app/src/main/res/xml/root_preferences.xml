@@ -1,0 +1,106 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    >
+
+
+    <PreferenceCategory app:title="واحدها"
+            app:icon="@drawable/ic_change"
+
+
+        >
+        <ListPreference
+            app:title="واحد دما"
+            app:key="TEMP"
+            android:summary="%s"
+            app:defaultValue="1"
+            app:entries="@array/tempitem"
+            app:entryValues="@array/temp_valu"
+            app:dialogIcon="@drawable/ic_temp_vector"
+            />
+
+
+        <ListPreference
+            app:title="واحد سرعت باد"
+            app:key="WIND"
+            android:summary="%s"
+            app:defaultValue="1"
+            app:entries="@array/wind_item"
+            app:dialogIcon="@drawable/ic_ph_wind_bold_1_"
+            app:entryValues="@array/wind_value"
+            />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="حمایت کنید"
+        app:icon="@drawable/ic_rate"
+        >
+
+
+      <Preference
+          app:title="امتیاز به برنامه"
+          app:key="Rate"
+          />
+
+
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        app:title="درباره ما"
+        app:icon="@drawable/ic_about_us"
+        app:key="about"
+        >
+
+
+
+        <Preference
+            app:title="Developer"
+            app:key="Developer"
+            app:summary="Ali Shojasani"
+
+            />
+
+
+        <Preference
+            app:title="Email"
+            app:key="email"
+            app:summary="ali.shojasani@tutamail.com"
+            >
+
+
+        </Preference>
+
+
+        <Preference
+            app:title="Version"
+            app:key="Version"
+
+            />
+
+
+
+
+
+    </PreferenceCategory>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</PreferenceScreen>

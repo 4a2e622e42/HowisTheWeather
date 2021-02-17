@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:background="@drawable/min_max_temp_shape"
+        app:backgroundTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.102" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/low_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="right"
+        android:gravity="center"
+        android:textColor="@color/light_blue"
+        android:textSize="25sp"
+        app:fontFamily="@font/samim_number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/high_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="top"
+        android:gravity="center"
+        android:textColor="#de76d3"
+        android:textSize="25sp"
+        app:fontFamily="@font/samim_number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.911"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/weather_icons"
+        android:layout_width="124dp"
+        android:layout_height="114dp"
+        android:foregroundGravity="left"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.013"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.544"
+
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/weather_description"
+        android:layout_width="121dp"
+        android:layout_height="46dp"
+        android:gravity="center"
+        android:fontFamily="@font/samim_bold"
+        android:textColor="@color/light_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.024"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/humidity_txt"
+        android:layout_width="128dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="رطوبت"
+        app:fontFamily="@font/samim_bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/humidity_value"
+        android:layout_width="128dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:textColor="@color/light_blue"
+        android:textSize="15sp"
+        app:fontFamily="@font/samim_number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.548" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/pressure_txt"
+        android:layout_width="128dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="فشار هوا"
+        app:fontFamily="@font/samim_bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/pressure_value"
+        android:layout_width="128dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        app:fontFamily="@font/samim_number"
+        android:textColor="@color/light_blue"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/wind_txt"
+        android:layout_width="128dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="سرعت باد"
+        app:fontFamily="@font/samim_bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.406" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/wind_value"
+        android:layout_width="128dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:textColor="@color/light_blue"
+        android:textSize="15sp"
+        app:fontFamily="@font/samim_number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.548" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/uvi_txt"
+        android:layout_width="128dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:text="ماورا بنفش"
+        app:fontFamily="@font/samim_bold"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.69" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/uvi_value"
+        android:layout_width="128dp"
+        android:layout_height="41dp"
+        android:gravity="center"
+        android:textColor="@color/light_blue"
+        android:textSize="15sp"
+        app:fontFamily="@font/samim_number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.833" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
